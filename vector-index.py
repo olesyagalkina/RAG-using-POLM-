@@ -27,7 +27,9 @@ search_index_model = SearchIndexModel(
     }
    ]
   }
- }
+ },
+  name="vector_index",
+  type="vectorSearch",
 )
 
 result = collection.create_search_index(model=search_index_model)
