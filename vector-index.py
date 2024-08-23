@@ -4,7 +4,7 @@ from pymongo.operations import SearchIndexModel
 
 # Connect to your Atlas deployment
 
-uri = "mongodb+srv://olegalkina:6uyfIuCq0dB1rKMI@@myatlasclusteredu.pnon21i.mongodb.net/?retryWrites=true&w=majority&appName=myAtlasClusterEDU""
+uri = "mongodb+srv://<user>:<key>@myatlasclusteredu.pnon21i.mongodb.net/?retryWrites=true&w=majority&appName=myAtlasClusterEDU""
 
 client = MongoClient(uri)
 
