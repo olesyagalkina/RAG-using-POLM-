@@ -2,7 +2,7 @@
 
 Este notebook implementa um sistema RAG completo utilizando o stack de IA `POLM` (Python, OpenAI, LlamaIndex, MongoDB). O stack de IA, também chamado de GenAI stack, é composto por modelos, bancos de dados, bibliotecas e frameworks que permitem a construção de aplicações modernas com capacidades de IA generativa.
 
-Neste projeto, utilizamos o modelo `text-embedding-3-small` da `OpenAI` para gerar embeddings, o `LlamaIndex` como orquestrador, e o `MongoDB`, que atua tanto como banco de dados operacional quanto como armazenamento vetorial.
+Neste projeto, utilizamos o modelo `text-embedding-3-small` da `OpenAI` para gerar embeddings, o `LlamaIndex` como estrutura de orquestração, e o `MongoDB`, que atua tanto como banco de dados operacional quanto como armazenamento vetorial.
 
 ### Estrutura do Projeto:
 1. Carregamento do Dataset: O conjunto de dados é carregado a partir do `Hugging Face`.
